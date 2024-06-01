@@ -1,0 +1,30 @@
+{
+  "name": "eggjs_boilerplate",
+  "version": "0.0.1",
+  "description": "eggjs_boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev",
+    "test": "egg-bin dev",
+    "start": "egg-scripts start --workers=13 --title=eggjs_boilerplate",
+    "stop": "egg-scripts stop --title=eggjs_boilerplate"
+  },
+  "keywords": [
+    "c118e819"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@clickhouse/client": "^0.0.11",
+    "date-and-time": "^2.4.1",
+    "egg": "^3.23.0",
+    "egg-redis": "^2.6.0",
+    "egg-scripts": "^3.0.1",
+    "egg-sequelize": "^6.0.0",
+    "mysql2": "^3.9.7",
+    "ws": "^8.17.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^5.5.0"
+  }
+}
